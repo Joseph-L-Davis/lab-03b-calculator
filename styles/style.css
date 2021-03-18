@@ -24,6 +24,7 @@ section {
   display: flex;
   align-items: center;
   justify-self: center;
+  border: 2px dotted black;
 }
 
 header {
