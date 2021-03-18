@@ -25,28 +25,28 @@ subtraction.addEventListener('click', () => {
     const value1 = input1.value;
     const value2 = input2.value;
     answer.textContent = Number(value1) - Number(value2);
-    value1.textContent = "";
-    value2.textContent = "";
+    value1.textContent = '';
+    value2.textContent = '';
 });
 
 multiplication.addEventListener('click', () => {
     const value1 = input1.value;
     const value2 = input2.value;
     answer.textContent = Number(value1) * Number(value2);
-    value1.value = "";
-    value2.value = "";
+    value1.value = '';
+    value2.value = '';
 });
 
 division.addEventListener('click', () => {
     const value1 = input1.value;
     const value2 = input2.value;
     answer.textContent = Number(value1) + Number(value2);
-    value1.textContent = "";
-    value2.textContent = "";
+    value1.textContent = '';
+    value2.textContent = '';
 });
 
 clear.addEventListener('click', () => {
-    input1.value = "";
-    input2.value = "";
-    answer.textContent = "0";
+    input1.value = '';
+    input2.value = '';
+    answer.textContent = '0';
 });
