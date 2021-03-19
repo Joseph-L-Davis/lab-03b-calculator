@@ -40,7 +40,7 @@ multiplication.addEventListener('click', () => {
 division.addEventListener('click', () => {
     const value1 = input1.value;
     const value2 = input2.value;
-    answer.textContent = Number(value1) + Number(value2);
+    answer.textContent = Number(value1) / Number(value2);
     value1.textContent = '';
     value2.textContent = '';
 });
